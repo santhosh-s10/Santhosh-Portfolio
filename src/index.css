@@ -71,6 +71,8 @@ button:focus-visible {
 
 /* --------------------------------Navbar-------------------------------------- */
 
+
+
 #nav-home:hover{
   color: rgb(255, 176, 17);
 }
@@ -208,18 +210,18 @@ button:focus-visible {
 
 /* -------------------------------Certification.jsx------------------------- */
 
-#cert-img:hover{
+#cert-img img:hover{
   border: solid 3px rgb(255, 176, 29);
 }
 
 /* -----------------------------Contact.jsx------------------------ */
 
 #message-div #input-msg{
-  width: 430px;
-  height: 100px;
+  width: 95vh;
+  height: 25vh;
 }
 #contact-btn{
-  width: 430px;
+  width: 30vh;
 }
 /* --------------------------Footer------------------------------- */
 

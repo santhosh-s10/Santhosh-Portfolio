@@ -63,7 +63,9 @@ const Home = () => {
             {/* <button className='btn btn-warning text-white mt-3'>Hire me</button> */}
         </div> 
         <div className='col' data-aos="fade-down" data-aos-duration='2000'>
-            <img src={profile} alt="Profile" className='ms-2' id='dancing-img' width={450}/>
+          <div className=''>
+            <img src={profile} alt="Profile" className='ms-2 ' id='dancing-img' width={450}/>
+            </div>
           
         </div>
         </div>

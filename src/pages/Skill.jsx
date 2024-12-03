@@ -29,7 +29,7 @@ const Skill = () => {
                 {/* <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum consectetur inventore magni, recusandae ullam atque ad tempora impedit commodi totam id tenetur amet neque itaque modi facilis aperiam libero similique.</p> */}
 
 
-                <p className='fw-bold fs-4 '>Frontend Tools</p>
+                <p className='fw-bold fs-4' data-aos="zoom-in" data-aos-duration='1500'>Frontend Tools</p>
                 <div className=' justify-content-evenly row row-cols-lg-6' >
                   <div id='hover-div' className='col text-center' data-aos="zoom-in" data-aos-duration='2000'>
                     <img src={html} alt="" width={100} height={100}/>
@@ -59,9 +59,9 @@ const Skill = () => {
 
 
 
-                <p className=' fw-bold fs-4 mt-5'>Programming Languages</p>
+                <p className=' fw-bold fs-4 mt-5' data-aos="zoom-in" data-aos-duration='1500'>Programming Languages</p>
 
-                <div className='justify-content-start row row-cols-2 row-cols-lg-6 mt-5'>
+                <div className='justify-content-start row row-cols-lg-6 mt-5'>
                   <div id='hover-div' className='col text-center' data-aos="zoom-in" data-aos-duration='2000'>
                     <img src={python} alt="" width={100} height={100} />
                     <p className='fw-bold fs-5'>Python</p>
@@ -78,9 +78,9 @@ const Skill = () => {
 
 
                 
-                <p className=' fw-bold fs-4 mt-5'>DataBases</p>
+                <p className=' fw-bold fs-4 mt-5' data-aos="zoom-in" data-aos-duration='1500'>DataBases</p>
 
-                <div className='justify-content-start row row-cols-2 row-cols-lg-6 mt-5'>
+                <div className='justify-content-start row row-cols-lg-6 mt-5'>
                   <div id='hover-div' className='col text-center' data-aos="zoom-in" data-aos-duration='2000'>
                     <img src={firebase} alt="" width={100} height={100} />
                     <p className='fw-bold fs-5'>FireBase</p>

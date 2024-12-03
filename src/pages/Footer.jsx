@@ -17,8 +17,8 @@ const Footer = () => {
 };
 
   return (
-    <div className='bg-black mt-5 pt-5 pb-5'>
-       <div className='d-flex justify-content-evenly container-fluid ps-5' id='footer-para'>
+    <div className='bg-black mt-5 pt-5 pb-5 container-fluid'>
+       <div className='text-center ps-5 bg-black' id='footer-para'>
             <p id='p1' onClick={()=> window.location.replace('#')} className='btn fw-bold'>Home</p>
             <p id='p2' onClick={()=> window.location.replace('/#about-id')} className='btn fw-bold '>About Me</p>
             <p id='p3' onClick={()=> window.location.replace('/#skill-id')} className='btn fw-bold '>Skill</p>

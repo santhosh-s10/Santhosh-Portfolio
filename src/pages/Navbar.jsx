@@ -86,45 +86,45 @@ const Navbar = () => {
           </button>
           {/* Right-aligned items */}
           <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div className="navbar-nav">
+            <div className="navbar-nav gap-4">
               <button
                 id="nav-home"
-                className="nav-item nav-link fw-semibold btn ps-5"
+                className="nav-item nav-link fw-semibold btn"
                 onClick={() => handleScroll('home-id')}
               >
                 Home
               </button>
               <button
                 id="nav-about"
-                className="nav-item nav-link fw-semibold btn ps-5"
+                className="nav-item nav-link fw-semibold btn"
                 onClick={() => handleScroll('about-id')}
               >
                 About
               </button>
               <button
                 id="nav-skill"
-                className="nav-item nav-link fw-semibold btn ps-5"
+                className="nav-item nav-link fw-semibold btn"
                 onClick={() => handleScroll('skill-id')}
               >
                 Skill
               </button>
               <button
                 id="nav-project"
-                className="nav-item nav-link fw-semibold btn ps-5"
+                className="nav-item nav-link fw-semibold btn"
                 onClick={() => handleScroll('project-id')}
               >
                 Project
               </button>
               <button
                 id="nav-certificate"
-                className="nav-item nav-link fw-semibold btn ps-5"
+                className="nav-item nav-link fw-semibold btn"
                 onClick={() => handleScroll('certificate-id')}
               >
                 Certificates
               </button>
               <button
                 id="nav-contact"
-                className="nav-item nav-link fw-semibold btn ps-5"
+                className="nav-item nav-link fw-semibold btn"
                 onClick={() => handleScroll('contact-id')}
               >
                 Contact
@@ -134,7 +134,7 @@ const Navbar = () => {
                 href={resume}
                 download="Santhosh Resume"
                 target="_blank"
-                className="btn fw-semibold btn-warning text-white ms-5 me-3"
+                className="btn fw-semibold btn-warning text-white"
               >
                 Download Resume
               </a>

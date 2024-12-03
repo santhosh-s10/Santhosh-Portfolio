@@ -10,7 +10,26 @@ const Certificate = () => {
         <div className='mt-5'>
             <p className='text-center fw-bold fs-2' data-aos="fade-down" data-aos-duration="1000">My <span className='text-warning'>Certificates</span></p>
         </div>
-        <div className='container pt-4'>
+
+        <div className=' row gap-3' >
+                  <div id='cert-img' className='col text-center' data-aos="zoom-in" data-aos-duration='2000'>
+                    <img className='rounded' src={website} alt="Website" width={360} height={250}/>
+                  </div>
+                  <div id='cert-img' className='col text-center' data-aos="zoom-in" data-aos-duration='2000'>
+                    <img className='rounded' src={flutter} alt="Flutter" width={360} height={250}/>
+                  </div>
+                  <div id='cert-img' className='col text-center' data-aos="zoom-in" data-aos-duration='2000'>
+                    <img className='rounded' src={rLanguage} alt="R-Language" width={360}  height={250}/>
+                  </div>
+                  <div id='cert-img' className='col text-center' data-aos="zoom-in" data-aos-duration='2000'>
+                    <img className='rounded' src={speak} alt="Speak" width={360} height={250}/>
+                  </div>
+                </div>
+
+
+
+{/* 
+        <div className='container pt-4 bg-danger'>
             <div className='row gap-5'>
                 <div className='col' data-aos="zoom-out-down" data-aos-duration='1000'>
                     <img id='cert-img' className='rounded' src={website} alt="Website" width={360} height={250} />
@@ -25,7 +44,7 @@ const Certificate = () => {
                     <img id='cert-img' className='rounded' src={speak} alt="Speak" width={360} height={250} />
                 </div>
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }

@@ -21,13 +21,12 @@ const Project = () => {
           </div> */}
           <div className='container'>
         <div className='row pt-4 gap-5'>
-          {/* <div id='img-container' className='col rounded' data-aos="zoom-in-up" data-aos-duration='1000'>
-            <a href="https://amazon-layout-page.netlify.app">
-          <img src={amazon} alt="amazon" id='amazon-div' width={360} height={220} className='' />
-          </a>
-          <div id='hover-text' className='pt-2 fw-bold'>
-            <div id='text'>Amazon Landing Page</div></div>
-          </div> */}
+        
+
+{/* <div id='cert-img' className='col text-center' data-aos="zoom-in" data-aos-duration='2000'>
+                    <img src={amazon} alt="Website" width={360} height={250}/>
+                  </div> */}
+
           <div className='col' data-aos="zoom-in-up" data-aos-duration='1000' >
             <div id='img-container'>
               <img src={amazon} alt="amazon" id='amazon-div' width={360} height={220} className='rounded'/>
