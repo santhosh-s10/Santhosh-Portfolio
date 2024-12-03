@@ -174,7 +174,11 @@ button:focus-visible {
   /* border-radius: 10px; */
   /* filter: drop-shadow(0 0 12px rgb(255,176,17)); */
 
-/* } */ */
+/* } */ 
+
+#html-hover:hover{
+  box-shadow: none;
+}
 
 
 
@@ -203,7 +207,7 @@ button:focus-visible {
 }
 
 #img-container:hover #hover-text{
-  height: 100%;
+  height: 90%;
 }
 
 

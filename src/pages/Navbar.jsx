@@ -54,7 +54,6 @@
 // export default Navbar
 
 import React from 'react';
-import resume from '../assets/Santhosh-Resume.pdf';
 
 const Navbar = () => {
   const handleScroll = (id) => {
@@ -129,15 +128,7 @@ const Navbar = () => {
               >
                 Contact
               </button>
-              <a
-                id="nav-resume"
-                href={resume}
-                download="Santhosh Resume"
-                target="_blank"
-                className="btn fw-semibold btn-warning text-white"
-              >
-                Download Resume
-              </a>
+
             </div>
           </div>
         </div>

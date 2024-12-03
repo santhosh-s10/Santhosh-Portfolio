@@ -12,60 +12,153 @@ AOS.init();
 
 const Project = () => {
   return (
-    <div id='project-id' className='pt-5'>
-        <div className='mt-5'>
-        <p className='text-center fw-bold fs-2' data-aos="fade-down" data-aos-duration="1000">My <span className='text-warning'>Projects</span></p>
-          {/* <div>
-              <button>Web</button><button></button><button></button>
-
-          </div> */}
-          <div className='container'>
-        <div className='row pt-4 gap-5'>
+    // <div id='project-id' className='pt-5'>
+    //   <div className='mt-5'>
+    //     <p className='text-center fw-bold fs-2' data-aos="fade-down" data-aos-duration="1000">My <span className='text-warning'>Projects</span></p>
+    //     <div className='container'>
+    //       <div className='row pt-4 gap-5'>
         
 
-{/* <div id='cert-img' className='col text-center' data-aos="zoom-in" data-aos-duration='2000'>
-                    <img src={amazon} alt="Website" width={360} height={250}/>
-                  </div> */}
+    //         <div className='col' data-aos="zoom-in-up" data-aos-duration='1000' >
+    //           <div id='img-container'>
+    //             <img src={amazon} alt="amazon" id='amazon-div' width={360} height={220} className='rounded'/>
+    //             <Link to='https://amazon-layout-page.netlify.app'>
+    //             <p id='hover-text' className='pt-2 fw-bold'>Amazon Landing Page</p></Link>
+    //           </div>
+    //         </div>
 
-          <div className='col' data-aos="zoom-in-up" data-aos-duration='1000' >
-            <div id='img-container'>
-              <img src={amazon} alt="amazon" id='amazon-div' width={360} height={220} className='rounded'/>
-              <Link to='https://amazon-layout-page.netlify.app'>
-              <p id='hover-text' className='pt-2 fw-bold'>Amazon Landing Page</p></Link>
-            </div>
-          </div>
-
-          <div className='col' data-aos="zoom-in-up" data-aos-duration='1000' >
-            <div id='img-container'>
-              <img src={travel} alt="Travel" id='travel-div' width={360} height={220} className='rounded'/>
-              <Link to='https://ibm-cloud-sample1.s3.che01.cloud-object-storage.appdomain.cloud/public.html'>
-              <p id='hover-text' className='pt-2 fw-bold'>Travel Blog Landing Page</p></Link>
-            </div>
-          </div>
+    //         <div className='col' data-aos="zoom-in-up" data-aos-duration='1000' >
+    //           <div id='img-container'>
+    //             <img src={travel} alt="Travel" id='travel-div' width={360} height={220} className='rounded'/>
+    //             <Link to='https://ibm-cloud-sample1.s3.che01.cloud-object-storage.appdomain.cloud/public.html'>
+    //             <p id='hover-text' className='pt-2 fw-bold'>Travel Blog Landing Page</p></Link>
+    //           </div>
+    //         </div>
           
-          <div className='col'data-aos="zoom-in-up" data-aos-duration='1000' >
-            <div id='img-container'>
-              <img src={rock} alt="Rock" id='rock-div' width={360} height={220} className='rounded'/>
-              <Link to='https://paper-scissorsrock.netlify.app'>
-              <p id='hover-text' className='pt-2 fw-bold'>Rock Paper Scissor</p></Link>
-            </div>
-          </div>
+    //         <div className='col'data-aos="zoom-in-up" data-aos-duration='1000' >
+    //           <div id='img-container'>
+    //             <img src={rock} alt="Rock" id='rock-div' width={360} height={220} className='rounded'/>
+    //             <Link to='https://paper-scissorsrock.netlify.app'>
+    //             <p id='hover-text' className='pt-2 fw-bold'>Rock Paper Scissor</p></Link>
+    //           </div>
+    //         </div>
 
-          <div className='col'data-aos="zoom-in-up" data-aos-duration='1000' >
-            <div id='img-container'>
-              <img src={appStore} alt="AppStore" id='rock-div' width={360} height={220} className='rounded'/>
-              <Link to='https://appstore-opal.vercel.app/'>
-              <p id='hover-text' className='pt-2 fw-bold'>App Store</p></Link>
+    //       <div className='col'data-aos="zoom-in-up" data-aos-duration='1000' >
+    //         <div id='img-container'>
+    //           <img src={appStore} alt="AppStore" id='rock-div' width={360} height={220} className='rounded'/>
+    //           <Link to='https://appstore-opal.vercel.app/'>
+    //           <p id='hover-text' className='pt-2 fw-bold'>App Store</p></Link>
+    //       </div>
+    //       </div>
+          
+    //     </div>
+    //     </div>
+    //     </div>
+    // </div>
+
+    <div id="project-id" className="pt-5">
+  <div className="mt-5">
+    <p
+      className="text-center fw-bold fs-2"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+    >
+      My <span className="text-warning">Projects</span>
+    </p>
+    <div className="container">
+      <div className="row gy-4 pt-3">
+        {/* Project 1 */}
+        <div
+          className="col-12 col-sm-6 col-lg-4 text-center"
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
+        >
+          <div id="img-container">
+            <img
+              src={amazon}
+              alt="amazon"
+              id="amazon-div"
+              className="rounded img-fluid w-100"
+              style={{maxWidth: "360px", height: "220px" }}
+            />
+            <Link to="https://amazon-layout-page.netlify.app">
+              <p id="hover-text" className="pt-2 fw-bold">
+                Amazon Landing Page
+              </p>
+            </Link>
           </div>
+        </div>
+
+        {/* Project 2 */}
+        <div
+          className="col-12 col-sm-6 col-lg-4 text-center"
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
+        >
+          <div id="img-container">
+            <img
+              src={travel}
+              alt="Travel"
+              id="travel-div"
+              className="rounded img-fluid w-100"
+              style={{ maxWidth: "360px", height: "220px", }}
+            />
+            <Link to="https://ibm-cloud-sample1.s3.che01.cloud-object-storage.appdomain.cloud/public.html">
+              <p id="hover-text" className="pt-2 fw-bold">
+                Travel Blog Landing Page
+              </p>
+            </Link>
           </div>
-          {/* <div>
-          <img src={nexant} alt="Img" width={300} height={550} />
-          <p className='pt-2 fw-bold'>Landing Page</p>
-          </div> */}
         </div>
+
+        {/* Project 3 */}
+        <div
+          className="col-12 col-sm-6 col-lg-4 text-center"
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
+        >
+          <div id="img-container">
+            <img
+              src={rock}
+              alt="Rock"
+              id="rock-div"
+              className="rounded img-fluid w-100"
+              style={{maxWidth: "360px", height: "220px", }}
+            />
+            <Link to="https://paper-scissorsrock.netlify.app">
+              <p id="hover-text" className="pt-2 fw-bold">
+                Rock Paper Scissor
+              </p>
+            </Link>
+          </div>
         </div>
+
+        {/* Project 4 */}
+        <div
+          className="col-12 col-sm-6 col-lg-4 text-center"
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
+        >
+          <div id="img-container">
+            <img
+              src={appStore}
+              alt="AppStore"
+              id="rock-div"
+              className="rounded img-fluid w-100"
+              style={{maxWidth: "360px", height: "220px", }}
+            />
+            <Link to="https://appstore-opal.vercel.app/">
+              <p id="hover-text" className="pt-2 fw-bold">
+                App Store
+              </p>
+            </Link>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+</div>
+
   )
 }
 
