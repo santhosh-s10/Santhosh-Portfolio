@@ -103,7 +103,7 @@ const Project = () => {
               className="rounded img-fluid w-100"
               style={{ maxWidth: "360px", height: "220px", }}
             />
-            <Link to="https://ibm-cloud-sample1.s3.che01.cloud-object-storage.appdomain.cloud/public.html">
+            <Link to="https://personal-travel-blog.vercel.app/">
               <p id="hover-text" className="pt-2 fw-bold">
                 Travel Blog Landing Page
               </p>
